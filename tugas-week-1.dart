@@ -29,6 +29,8 @@ void kalkulator(double number, double number2, String operator) {
     result = number * number2;
   } else if (operator == "/") {
     result = number / number2;
+  } else {
+    print("salah input");
   }
   print("$number $operator $number2 = $result");
 }
